@@ -1,0 +1,16 @@
+###
+POST http://localhost:8080/api/song
+Content-Type: application/json
+
+{
+  "name": "Take On Me",
+  "artistName" : "a-ha",
+  "length" : 226,
+  "releaseYear" : 1984
+}
+
+###
+DELETE http://localhost:8080/api/song/1
+
+###
+PUT http://localhost:8080/api/song/1?artistName=a-ha
